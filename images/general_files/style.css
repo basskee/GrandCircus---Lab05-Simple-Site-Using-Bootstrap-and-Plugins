@@ -1,0 +1,49 @@
+
+
+h1, p{
+	font-size: 5em;
+	color: red;
+}
+
+
+#namelist{
+			float:left;
+			overflow: hidden;
+			background-color: lightgrey;
+			border:thin #111 solid;
+			/*display: inline-block;*/
+			margin: 10px 10px;
+			padding: 10px;
+			width: 40px;
+
+		}
+#namelist p{
+	
+
+}
+#pricelist{
+			float:left;
+			overflow: hidden;
+			background-color: lightgrey;
+			border:thin #111 solid;
+			display: inline-block;
+			margin: 10px 10px;
+			padding: 10px;
+
+
+}
+#mainform{
+	display:inline-block;
+}
+#pricetotal{
+	border:black solid thin;
+	display:inline-block;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+#calc{
+	text-align: center;
+	margin: 5em auto;
+}

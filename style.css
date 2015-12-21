@@ -1,0 +1,244 @@
+
+ /*===================
+ ======Font Rules=====
+=====================*/
+
+
+
+
+
+p{
+	font-family: 'EB Garamond', serif;
+	color:#111;
+	font-size:18px;
+	
+}
+
+h1{
+	
+
+}
+
+h3{
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+	font-weight: 700;
+}
+h4{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+
+ /*===================
+ =========GLOBAL========
+=====================*/
+
+.glyphicon {
+	padding:7px;
+	color: #fff;
+}
+
+.row {
+	margin:0 0 ;
+}
+
+.shadow{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;;
+}
+
+ /*===================
+ =========Header========
+=====================*/
+header{
+
+
+}
+
+
+nav{
+	text-align: right;
+	list-style: none;
+	border-bottom: 1px solid rgba(255, 255, 246, 0.3);
+    border-width:1px 0;
+    position: relative;
+    background-color: #666 !important;
+
+}
+nav ul{
+	padding-left: 0;
+	display: inline-block;
+
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px 10px;
+	margin:0 20px;
+}
+nav li a{
+	display: inline-block;
+	padding:10px 20px;
+	font-size: 1.1em;
+	color:#fff;
+}
+
+
+ /*===================
+ =========Body========
+=====================*/
+
+.slick-slide {
+-webkit-transition: opacity 500ms linear;
+-moz-transition: opacity 500ms linear;
+-ms-transition: opacity 500ms linear;
+-o-transition: opacity 500ms linear;
+transition: opacity 500ms linear;
+}
+
+
+
+
+body { 
+	padding-top: 70px;
+	background-color: #B8C6C9;
+	text-align: center;
+	 }
+
+.col-md-6, .col-md-4, .col-md-8{
+	background-color: #d0cec9;
+}
+
+
+body.container{
+	max-width: 1170px;
+}
+
+
+ /*===================
+ =========Hero========
+=====================*/
+
+#myCarousel{
+	margin-bottom: 1em;
+}
+
+.carousel{
+	margin-top: 1.5em;
+}
+
+
+
+
+
+
+
+ /*============================
+ =========Section Blog1========
+============================*/
+.date-box{
+	height:50px;
+	width:50px;
+	background-color: #111;
+	float:left;
+	margin:1em;
+	padding-top: 10px;
+
+}
+.date-box p{
+	color:#fff;
+	font-size: 10px;
+}	
+
+.blog-content{
+	padding-left:6em;
+}
+
+.blog-a{
+		margin-left:1em;
+		padding:5px 15px 5px 10px;
+}
+.blog-a h3{
+	margin-bottom:1em;
+	margin-left:3em;
+	padding-left: 1em;
+	padding-right:1em;
+}
+
+#r2, #r3{
+    margin-top:1em;
+    margin-bottom:1em;
+
+}
+
+.align-left{
+	text-align: left;
+}
+
+.p1{
+
+}
+ /*============================
+ =========Section Blog2========
+============================*/
+form.myform{
+	text-align: left !important;
+}
+form.signup{
+	margin-bottom: 1em;
+}
+
+.thumbnail{
+	border: none;
+	background-color: #B8C6C9;
+}
+
+
+
+ /*============================
+ =========Section FOOTER========
+============================*/
+
+footer{
+	height:300px !important;
+
+}
+.footer-container{
+	margin:1em auto;
+}
+.foot-center, .foot-right{
+	border-left: solid 1px #fff;
+} 
+.foot-row{
+	padding-bottom: 1em;
+}
+.footer-container{
+	background-color: #333;
+}
+
+
+
+
+ /*===================
+ ====Media Queries===
+=====================*/
+
+@media screen and (max-width: 1200px){
+
+
+}
+
+
+
+@media screen and (max-width: 960px){
+nav{
+text-align: center;
+}
+#navrow li {
+	padding: 5px 5px;
+	margin:0 5px;
+}
+}
